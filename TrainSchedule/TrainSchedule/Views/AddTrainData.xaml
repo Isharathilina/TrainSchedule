@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainSchedule.Views.AddTrainData">
+
+
+
+    <ContentPage.Content>
+        <Grid>
+            
+            <ScrollView>
+                <StackLayout Spacing="20" VerticalOptions="Center" Margin="20,0,20,0">
+
+                   
+                        <Entry x:Name="TrainName1" 
+				   Placeholder="Train Name"
+				   />
+
+                   <Entry x:Name="Station1" 
+				   Placeholder="Station"
+				   />
+
+
+                                <Label Text="ArriveTime"/>
+                                 <TimePicker x:Name="ArriveTime1"  />
+
+
+                        <Label Text="Leave Time"/>
+                                <TimePicker x:Name="LeaveTime1"   />
+
+
+
+
+
+                   <Button Text="Add Database" 
+					x:Name="Addbtn"
+					Clicked="addBtn_Clicked"
+					CornerRadius="10"
+                    BackgroundColor="DeepSkyBlue"/>
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+            <ActivityIndicator x:Name="activityIndicator"
+                               IsRunning="{Binding IsBusy}"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               Color="DeepSkyBlue"/>
+        </Grid>
+    </ContentPage.Content>
+
+
+
+</ContentPage>

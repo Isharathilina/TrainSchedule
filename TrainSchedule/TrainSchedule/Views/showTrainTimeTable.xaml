@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainSchedule.Views.showTrainTimeTable">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Train Time Table" FontSize="Large" HorizontalTextAlignment="Center" />
+            <Label  Text="On" FontSize="Large" HorizontalTextAlignment="Center" />
+            <Label x:Name="stname" Text="{Binding}"  FontSize="Large" HorizontalTextAlignment="Center" />
+
+
+
+
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+
+
+
+            </StackLayout>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainSchedule.Views.TrainTimeTable">
+
+
+
+    <ContentPage.Content>
+        <Grid>
+            <Image Aspect="AspectFill" x:Name="Trainimg" />
+            <ScrollView>
+                <StackLayout Spacing="20" VerticalOptions="Start" Margin="20,0,20,0">
+
+                    <Label Text=""/>
+                    <Label Text=""/>
+
+
+                    <Entry  PlaceholderColor="IndianRed" x:Name="Station" 
+				   Placeholder="Station"/>
+
+
+                    <Label Text="Date" FontSize="Large" HorizontalTextAlignment="Center"   />
+                        <DatePicker x:Name="Datepic" />
+
+
+                    <Button Text="Show trains" 
+					x:Name="showtrains"
+					Clicked="showtraincliked"
+					CornerRadius="10"
+					BackgroundColor="Green"
+                      Opacity="1"  />
+
+
+
+                </StackLayout>
+            </ScrollView>
+
+            <ActivityIndicator x:Name="activityIndicator"
+                               IsRunning="{Binding IsBusy}"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               Color="DeepSkyBlue"/>
+        </Grid>
+    </ContentPage.Content>
+
+
+
+
+
+</ContentPage>

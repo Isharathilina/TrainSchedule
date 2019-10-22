@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainSchedule.Android", "TrainSchedule\TrainSchedule.Android\TrainSchedule.Android.csproj", "{BC0CED38-86F2-459E-A5A6-6F822C92DB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainSchedule", "TrainSchedule\TrainSchedule\TrainSchedule.csproj", "{2CB90CFB-7E8E-451D-9A91-98C9733D7310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC0CED38-86F2-459E-A5A6-6F822C92DB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0CED38-86F2-459E-A5A6-6F822C92DB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0CED38-86F2-459E-A5A6-6F822C92DB64}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC0CED38-86F2-459E-A5A6-6F822C92DB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0CED38-86F2-459E-A5A6-6F822C92DB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0CED38-86F2-459E-A5A6-6F822C92DB64}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2CB90CFB-7E8E-451D-9A91-98C9733D7310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB90CFB-7E8E-451D-9A91-98C9733D7310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB90CFB-7E8E-451D-9A91-98C9733D7310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB90CFB-7E8E-451D-9A91-98C9733D7310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CC842A4-E716-4E20-B8BA-5C6DD3E0C153}
+	EndGlobalSection
+EndGlobal

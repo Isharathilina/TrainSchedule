@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainSchedule.Views.TrainOption">
+
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Frame>
+                    <StackLayout BackgroundColor="Aqua" >
+                        <Label FontSize="Large" FontAttributes="Bold" HorizontalOptions="Start" Text="Option 1"  />
+
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                            <Label x:Name="fromst" Text="{Binding} " />
+                            <Label  Text="  To  " />
+                            <Label x:Name="tost" Text="{Binding}" />
+
+
+
+                        </StackLayout>
+
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+
+                            <Label Text="Scheduled Arrive Time" />
+                            <Label  Text=" :- " />
+                            <Label x:Name="satime" Text="{Binding}" />
+
+
+                        </StackLayout>
+
+
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+
+                            <Label Text="Scheduled Reach Time" />
+                            <Label  Text=" :- " />
+                            <Label x:Name="srtime" Text="{Binding}" />
+
+
+                        </StackLayout>
+
+
+
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+
+                            <Label Text="Calculated  Time" />
+                            <Label  Text=" :- " />
+                            <Label x:Name="caltime" Text="{Binding}" />
+
+
+                        </StackLayout>
+
+
+
+
+
+
+
+
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+
+                            <Label Text="Estimated Arrive Time" />
+                            <Label  Text=" :- " />
+                            <Label x:Name="estime" Text="{Binding}" />
+
+
+                        </StackLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </StackLayout>
+
+                </Frame>
+
+              
+
+
+
+            </StackLayout>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </ScrollView>
+
+
+    </ContentPage.Content>
+
+
+
+
+
+
+</ContentPage>
